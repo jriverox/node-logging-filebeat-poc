@@ -1,0 +1,24 @@
+{
+  "name": "logging-filebeat-demo",
+  "version": "1.0.0",
+  "description": "demo in node.js logging using log4js, bunyan, winston and the log shipper filebeat for send to elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jriverox/logging-filebeat-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jriverox/logging-filebeat-demo/issues"
+  },
+  "homepage": "https://github.com/jriverox/logging-filebeat-demo#readme",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  }
+}

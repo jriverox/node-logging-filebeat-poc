@@ -1,0 +1,39 @@
+- key: log
+  title: Log file content
+  description: >
+    Contains log file lines.
+  fields:
+  - name: '@timestamp'
+    level: core
+    required: true
+    type: date
+    description: 'Date/time when the event originated.'
+  - name: level
+    type: text
+    required: true
+    description: 'The file offset the reported line starts at.'
+  - name: message
+    type: text
+    required: true
+    description: ''
+  - name: hostname
+    type: text
+    required: true
+    description: ''
+  - name: operation
+    type: text
+    required: true
+    description: ''
+  - name: parameters
+    type: text
+    required: false
+    description: ''
+  - name: exception
+    type: text
+    required: false
+    description: ''
+  - name: duration
+    type: float
+    required: false
+    description: ''
+  
