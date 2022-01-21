@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/jriverox/logging-filebeat-demo#readme",
   "dependencies": {
-    "log4js": "^6.3.0"
+    "log4js": "^6.4.0"
   }
 }
